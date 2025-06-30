@@ -1,1 +1,72 @@
+nav {
+    width: 100%;
+}
 
+ul {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.active {
+        border-bottom: 2px solid black;
+    }
+}
+
+
+.icon {
+    color: black;
+    transition: 0.3s ease;
+
+}
+
+.icon:hover {
+    transform: scale(1.3);
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    margin-top: 1.2rem;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 360px;
+    height: 13rem;
+    width: auto;
+}
+
+h1 {
+    position: relative;
+    margin-left: 14rem;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    
+}
+
+h2 {
+    position: relative;
+    margin-left: 17rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.text {
+    margin-top: 6rem;
+    padding: 1rem;
+    font-size: 1rem;
+    max-width: 500px;
+}

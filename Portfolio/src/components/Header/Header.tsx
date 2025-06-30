@@ -14,7 +14,7 @@ export const Header = () => {
               aria-label="Send email"
               rel="noopener noreferrer"
             >
-              <HiOutlineMail size={24} />
+              <HiOutlineMail className="icon" size={24} />
             </a>
           </li>
           <li>
@@ -24,7 +24,7 @@ export const Header = () => {
               aria-label="Visit my LinkedIn profile"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={24} />
+              <FaLinkedin className="icon" size={24} />
             </a>
           </li>
           <li>
@@ -34,14 +34,17 @@ export const Header = () => {
               aria-label="Visit my Github profile"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} />
+              <FaGithub className="icon" size={24} />
             </a>
           </li>
         </ul>
       </nav>
-
+      <div className="image">
+        <img src=".\public\Bild1.jpg" alt="Profile picture"></img>
+      </div>
       <h1>Wlecome to my portfolio</h1>
       <h2>Sarah Sundberg</h2>
+
       <p className="text">
         Driven Frontend student with a strong interest in creating innovative
         and accessible web experiences. Throughout my studies, I have developed
@@ -49,9 +52,6 @@ export const Header = () => {
         frameworks such as Vue and React, with a focus on responsive design and
         accessibility.
       </p>
-      <div className="image">
-        <img src=".\public\Bild1.jpg" alt="Profile picture"></img>
-      </div>
     </div>
   );
 };
