@@ -1,0 +1,18 @@
+header {
+    background-color: #D5DEC1;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+main {
+ flex: 1; //makes main to fill the remaining gap left on the page between header & footer
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+footer {
+    height: 100px;
+    background-color: #D5DEC1;
+}
