@@ -40,15 +40,15 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="image">
-        <img src=".\public\Bild1.jpg" alt="Profile picture"></img>
+        <img className='profile' src="/Bild1.jpg" alt="Profile picture"></img>
       </div>
-      <h1>Wlecome to my portfolio</h1>
+      <h1>Welcome to my portfolio</h1>
       <h2>Sarah Sundberg</h2>
 
       <p className="text">
-        Driven Frontend student with a strong interest in creating innovative
+        I am a driven Frontend student with a strong interest in creating innovative
         and accessible web experiences. Throughout my studies, I have developed
-        a solid foundation in TypeScript, HTML5, CSS, Node.js, and various
+        a solid foundation in TypeScript, HTML5, CSS, SQL, UX/UI design and various
         frameworks such as Vue and React, with a focus on responsive design and
         accessibility.
       </p>

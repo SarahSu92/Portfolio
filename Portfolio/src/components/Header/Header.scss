@@ -40,24 +40,26 @@ li {
     padding: 1rem;
 }
 
-img {
+.profile {
     border-radius: 360px;
     height: 13rem;
     width: auto;
 }
 
 h1 {
-    position: relative;
-    margin-left: 14rem;
+    
+    margin-left: 15rem;
     font-size: 1.2rem;
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    font-weight: 100;
+    font-style: italic;
     
 }
 
 h2 {
-    position: relative;
-    margin-left: 17rem;
+    
+    margin-left: 16rem;
     font-size: 1.5rem;
     margin-top: 0.5rem;
     font-style: italic;
