@@ -94,21 +94,12 @@ h4 {
     margin-top: 1rem;
 
     span {
-        background-color: #6a0dad; // deep purple
-        color: #fff;
-        border: 1px solid #b266ff;
-        border-radius: 20px;
+        background-color: #fff; 
+        color: #000;
         padding: 0.4rem 0.9rem;
         font-size: 0.8rem;
-        box-shadow: 0 0 10px #b266ff, 0 0 20px #b266ff44;
-        transition: 0.3s ease;
         font-weight: 100;
-
-        &:hover {
-            background-color: #8a2be2;
-            box-shadow: 0 0 12px #e0b3ff, 0 0 30px #e0b3ff88;
-            transform: scale(1.05);
-        }
+        
     }
 }
 

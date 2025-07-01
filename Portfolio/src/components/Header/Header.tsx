@@ -42,7 +42,7 @@ export const Header = () => {
       <div className="image">
         <img className='profile' src="/Bild1.jpg" alt="Profile picture"></img>
       </div>
-      <h1>Welcome to my portfolio</h1>
+      <h1>Hi I'm</h1>
       <h2>Sarah Sundberg</h2>
 
       <p className="text">

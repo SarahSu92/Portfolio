@@ -18,7 +18,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/Merlynquiz.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
@@ -53,12 +53,13 @@ export const Main = () => {
           </p>
         </article>
       </section>
+      {/* -------------------------------------------------- */}
       <section>
         <article className="projects">
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/Poseidonretreat.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
@@ -93,12 +94,13 @@ export const Main = () => {
           </p>
         </article>
       </section>
+      {/* -------------------------------------------------- */}
       <section>
         <article className="projects">
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/Atlantisframe.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
@@ -133,12 +135,13 @@ export const Main = () => {
           </p>
         </article>
       </section>
+      {/* -------------------------------------------------- */}
       <section>
         <article className="projects">
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/APIbooks.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
@@ -173,12 +176,13 @@ export const Main = () => {
           </p>
         </article>
       </section>
+      {/* -------------------------------------------------- */}
       <section>
         <article className="projects">
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/Todos.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
@@ -213,12 +217,13 @@ export const Main = () => {
           </p>
         </article>
       </section>
+      {/* -------------------------------------------------- */}
       <section>
         <article className="projects">
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Skärmbild 2025-06-30 095056.png"
+              src="/Gottfridsmunkar.png"
               alt="Merlyn quiz game"
             ></img>
           </div>
