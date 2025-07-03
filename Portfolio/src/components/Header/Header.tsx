@@ -9,7 +9,7 @@ export const Header = () => {
         <ul className='nav'>
           <li className='nav-icons'>
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:sarah.sundberg@outlook.com"
               target="_blank"
               aria-label="Send email"
               rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export const Header = () => {
           </li>
           <li className='nav-icons'>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/sarah-sundberg92/"
               target="_blank"
               aria-label="Visit my LinkedIn profile"
               rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export const Header = () => {
           </li>
           <li className='nav-icons'>
             <a
-              href="https://github.com/your-username"
+              href="https://www.github.com/SarahSu92"
               target="_blank"
               aria-label="Visit my Github profile"
               rel="noopener noreferrer"

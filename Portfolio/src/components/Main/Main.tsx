@@ -1,11 +1,16 @@
-import { Button } from '../Button/Button';
+import { Arrow } from '../Arrow/Aorrow';
 import './Main.scss';
 
 export const Main = () => {
   return (
     <>
       <div className="undernav">
-        <a href="/CV Sarah Sundberg.pdf" className="resume" target="_blank" rel="noopener noreferrer">
+        <a
+          href="/CV Sarah Sundberg.pdf"
+          className="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
         </a>
         <a href="#contact-section" className="contact">
@@ -36,7 +41,13 @@ export const Main = () => {
             pops up with confetti! 🎉
           </p>
           <div className="button">
-            <Button />
+            <a
+              href="https://sarahsu92.github.io/Merlynquiz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">View Live Page</button>
+            </a>
           </div>
 
           <p className="tech-stack">Tech</p>
@@ -73,7 +84,13 @@ export const Main = () => {
             various rooms and booking alternatives.
           </p>
           <div className="button">
-            <Button />
+            <a
+              href="https://medieinstitutet.github.io/fed24d-grafiska-verktyg-elddvargskejsarna/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">View Live Page</button>
+            </a>
           </div>
 
           <p className="tech-stack">Tech</p>
@@ -106,7 +123,13 @@ export const Main = () => {
             webbpage.
           </p>
           <div className="button">
-            <Button />
+            <a
+              href="https://sarahsu92.github.io/Atlantis_Frame/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">View Live Page</button>
+            </a>
           </div>
 
           <p className="tech-stack">Tech</p>
@@ -169,11 +192,17 @@ export const Main = () => {
             them.
           </p>
           <div className="button">
-            <Button />
+            <a
+              href="https://sarahsu92.github.io/TodoList/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">View Live Page</button>
+            </a>
           </div>
 
           <p className="tech-stack">Tech</p>
-          <p className='tech'>
+          <p className="tech">
             <span>Sass</span>
             <span>Vite</span>
             <span>HTML5</span>
@@ -183,7 +212,7 @@ export const Main = () => {
             <span>Prettier</span>
             <span>JavaScript</span>
             <span>React</span>
-            </p>
+          </p>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -207,7 +236,13 @@ export const Main = () => {
             and desktop.
           </p>
           <div className="button">
-            <Button />
+            <a
+              href="https://medieinstitutet.github.io/fed24d-js-intro-inl-1-webshop-SarahSu92"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn">View Live Page</button>
+            </a>
           </div>
 
           <p className="tech-stack">Tech</p>
@@ -219,31 +254,33 @@ export const Main = () => {
           </p>
         </article>
       </section>
-      <section className='tech-skills'>
-        <article className='tech-skill'>
+      <section className="tech-skills">
+        <article className="tech-skill">
           <h4>Skills</h4>
-            <div className='tech'>
-              <ul className='skills'>
-                <li className='skill'>HTML5</li>
-                <li className='skill'>CSS3</li>
-                <li className='skill'>JavaScript</li>
-                <li className='skill'>EsLint</li>
-                <li className='skill'>Prettier</li>
-                <li className='skill'>TypeScript</li>
-                <li className='skill'>Vue</li>
-                <li className='skill'>React</li>
-                <li className='skill'>Vite</li>
-                <li className='skill'>NPM</li>
-                <li className='skill'>Node.js</li>
-                <li className='skill'>MySQL</li>
-                <li className='skill'>MongoDB</li>
-                <li className='skill'>Figma</li>
-                <li className='skill'>Photoshop</li>
-                <li className='skill'>SASS</li>
-              </ul>
-            </div>
+          <div className="tech">
+            <ul className="skills">
+              <li className="skill">HTML5</li>
+              <li className="skill">CSS3</li>
+              <li className="skill">JavaScript</li>
+              <li className="skill">EsLint</li>
+              <li className="skill">Prettier</li>
+              <li className="skill">TypeScript</li>
+              <li className="skill">Vue</li>
+              <li className="skill">React</li>
+              <li className="skill">Vite</li>
+              <li className="skill">NPM</li>
+              <li className="skill">Node.js</li>
+              <li className="skill">MySQL</li>
+              <li className="skill">MongoDB</li>
+              <li className="skill">Figma</li>
+              <li className="skill">Photoshop</li>
+              <li className="skill">SASS</li>
+            </ul>
+          </div>
         </article>
-        </section>
+      </section>
+
+      <Arrow />
     </>
   );
 };
