@@ -5,10 +5,10 @@ export const Main = () => {
   return (
     <>
       <div className="undernav">
-        <a href="#" className="resume">
+        <a href="/CV Sarah Sundberg.pdf" className="resume" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
-        <a href="#" className="contact">
+        <a href="#contact-section" className="contact">
           Contact
         </a>
       </div>
