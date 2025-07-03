@@ -123,7 +123,16 @@ h4 {
     align-items: center;
 
     span {
-        background-color: #fff;
+        background: linear-gradient(135deg,
+                #d5dec1 0%,
+                #c6d3ab 0%,
+                #e0e9cc 0%,
+                
+
+            );
+        box-shadow:
+            inset 0 2px 4px rgba(255, 255, 255, 0.6),
+            0 2px 6px rgba(0, 0, 0, 0.15);
         color: #11151b;
         padding: 0.4rem 0.9rem;
         font-size: 0.8rem;
@@ -173,7 +182,7 @@ h4 {
             0 2px 6px rgba(0, 0, 0, 0.15);
         color: #11151b;
         padding: 0.5rem 0.8rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 500;
         border-radius: 0.5rem;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
