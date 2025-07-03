@@ -1,12 +1,23 @@
 Body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
 }
 
 header {
-    background-color: #D5DEC1;
-    padding: 0.5rem;
+    background: linear-gradient(
+    135deg,
+    #d5dec1 0%,
+    #c6d3ab 30%,
+    #e0e9cc 50%,
+    
+    
+  ); 
+   box-shadow: 
+    inset 0 2px 4px rgba(255, 255, 255, 0.6),  
+    0 2px 6px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
+    border-radius: 2px;
 }
 
 main {
@@ -16,5 +27,18 @@ main {
 
 footer {
     height: 100px;
-    background-color: #D5DEC1;
+    background: linear-gradient(
+    135deg,
+    #d5dec1 0%,
+    #c6d3ab 0%,
+    #e0e9cc 50%,
+    #beca9d 140%
+    
+  ); 
+   box-shadow: 
+    inset 0 2px 4px rgba(255, 255, 255, 0.6),  
+    0 2px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
 }

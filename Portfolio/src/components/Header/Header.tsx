@@ -6,8 +6,8 @@ export const Header = () => {
   return (
     <div className="top">
       <nav className="media-icons" aria-label="Social media links">
-        <ul>
-          <li>
+        <ul className='nav'>
+          <li className='nav-icons'>
             <a
               href="mailto:your-email@example.com"
               target="_blank"
@@ -17,7 +17,7 @@ export const Header = () => {
               <HiOutlineMail className="icon" size={24} />
             </a>
           </li>
-          <li>
+          <li className='nav-icons'>
             <a
               href="https://linkedin.com/in/your-profile"
               target="_blank"
@@ -27,7 +27,7 @@ export const Header = () => {
               <FaLinkedin className="icon" size={24} />
             </a>
           </li>
-          <li>
+          <li className='nav-icons'>
             <a
               href="https://github.com/your-username"
               target="_blank"

@@ -1,3 +1,4 @@
+import { Footer } from '../components/Footer/Footer';
 import { Header } from '../components/Header/Header';
 import { Main } from '../components/Main/Main';
 
@@ -12,7 +13,9 @@ export const Layout = () => {
       <main>
         <Main />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
