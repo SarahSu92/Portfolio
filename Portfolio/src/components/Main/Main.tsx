@@ -1,5 +1,6 @@
 import { Arrow } from '../Arrow/Aorrow';
 import './Main.scss';
+import './_Tablet.scss';
 
 export const Main = () => {
   return (
@@ -257,7 +258,7 @@ export const Main = () => {
       <section className="tech-skills">
         <article className="tech-skill">
           <h4>Skills</h4>
-          <div className="tech">
+          <div className="tech-wrap">
             <ul className="skills">
               <li className="skill">HTML5</li>
               <li className="skill">CSS3</li>

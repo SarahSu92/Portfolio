@@ -14,7 +14,7 @@ export const Header = () => {
               aria-label="Send email"
               rel="noopener noreferrer"
             >
-              <HiOutlineMail className="icon" size={24} />
+              <HiOutlineMail className="icon" />
             </a>
           </li>
           <li className='nav-icons'>
@@ -24,7 +24,7 @@ export const Header = () => {
               aria-label="Visit my LinkedIn profile"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="icon" size={24} />
+              <FaLinkedin className="icon" />
             </a>
           </li>
           <li className='nav-icons'>
@@ -34,7 +34,7 @@ export const Header = () => {
               aria-label="Visit my Github profile"
               rel="noopener noreferrer"
             >
-              <FaGithub className="icon" size={24} />
+              <FaGithub className="icon" />
             </a>
           </li>
         </ul>
