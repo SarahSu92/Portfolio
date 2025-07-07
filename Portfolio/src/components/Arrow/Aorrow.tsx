@@ -27,7 +27,7 @@ export const Arrow = ()=> {
         onClick={scrollToTop}
         className="arrow"
         aria-label="Scroll to top"
-        >up
+        >Top
          ↑
         
         </button>
