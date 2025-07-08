@@ -1,6 +1,10 @@
 @use './Tablet.scss';
 @use './Desktop';
 
+.view-live-button {
+        display: none;
+    }
+
 .undernav {
     margin: 0;
     display: flex;
@@ -76,9 +80,8 @@ section {
 }
 
 .projects {
-    border: 1px solid #1f2937;
+    border-bottom: 1px solid #1f2937;
     padding: 0.5rem;
-    border-radius: 2px;
 }
 
 .image-wrapper {
@@ -205,8 +208,7 @@ h4 {
 
 .btn {
     background: linear-gradient(145deg,
-            #acce62 100%
-        );
+            #acce62 100%);
 
     border-radius: 1rem;
     border: 1px solid #11151b;
@@ -221,5 +223,6 @@ h4 {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
         color: #fff;
     }
+
 
 }

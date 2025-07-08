@@ -20,6 +20,7 @@ export const Main = () => {
         </a>
       </div>
       <h3>Projects</h3>
+
       <section>
         <article className="projects">
           <div className="image-wrapper">
@@ -27,21 +28,30 @@ export const Main = () => {
               className="image-projects"
               src="/Merlynquiz.png"
               alt="Merlyn quiz game, a quizgame."
-            ></img>
+            />
+            <a
+              href="https://sarahsu92.github.io/Merlynquiz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-live-button"
+            >
+              View Live Page
+            </a>
           </div>
-
-          <h4>Merlyn quiz</h4>
-          <p className="aboutp">
-            This is a quiz game that I've work tohether with a group of five
-            people. The quiz is a about flags and what country each flag
-            represent. It's ten questions and you have three anwers to choose
-            from, wich one you think it's right. You can follow how many
-            questions you have answerd and how far you have come in the process
-            with the car at the bottom of the page that moves forward for each
-            answerd question. When the quiz is finished the result will show
-            have many qustions you answerd correctly and time, also an animation
-            pops up with confetti! 🎉
-          </p>
+          <div className="projects-wrapper">
+            <h4>Merlyn quiz</h4>
+            <p className="aboutp">
+              This is a quiz game that I've work tohether with a group of five
+              people. The quiz is a about flags and what country each flag
+              represent. It's ten questions and you have three anwers to choose
+              from, wich one you think it's right. You can follow how many
+              questions you have answerd and how far you have come in the
+              process with the car at the bottom of the page that moves forward
+              for each answerd question. When the quiz is finished the result
+              will show have many qustions you answerd correctly and time, also
+              an animation pops up with confetti! 🎉
+            </p>
+          </div>
           <div className="button">
             <a
               href="https://sarahsu92.github.io/Merlynquiz/"
@@ -52,16 +62,18 @@ export const Main = () => {
             </a>
           </div>
 
-          <p className="tech-stack">Tech</p>
-          <p className="tech">
-            <span>Sass</span>
-            <span>Vite</span>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>TypeScript</span>
-            <span>Eslint</span>
-            <span>Prettier</span>
-          </p>
+          <div className='tech-wrap'>
+            <p className="tech-stack">Tech</p>
+            <p className="tech">
+              <span>Sass</span>
+              <span>Vite</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>TypeScript</span>
+              <span>Eslint</span>
+              <span>Prettier</span>
+            </p>
+          </div>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -256,6 +268,7 @@ export const Main = () => {
           </p>
         </article>
       </section>
+
       <section className="tech-skills">
         <article className="tech-skill">
           <h4>Skills</h4>

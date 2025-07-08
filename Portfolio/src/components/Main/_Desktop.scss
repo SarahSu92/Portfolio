@@ -1,10 +1,102 @@
-
 @media screen and (min-width: 1024px) {
-.resume {
-    display: none;
-}
+    .resume {
+        display: none;
+    }
 
-.contact {
-    display: none;
-}
+    .contact {
+        display: none;
+    }
+
+    .projects {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+
+
+    }
+
+    .projects-wrapper {
+        max-width: 500px;
+    }
+
+    .image-wrapper {
+        overflow: hidden;
+        position: relative;
+        max-width: 100%;
+
+
+
+        &:hover .image-projects {
+            filter: blur(4px);
+        }
+
+        &:hover .view-live-button {
+            opacity: 1;
+        }
+    }
+
+    .image-projects {
+
+        width: 100%;
+        /* Makes the image responsive */
+        max-width: 300px;
+        /* Prevents it from growing too big */
+        min-width: 200px;
+        /* Prevents it from shrinking too small */
+        height: auto;
+        /* Maintains aspect ratio */
+        object-fit: cover;
+        /* Optional: crops image to fill space */
+        transition: filter 0.5s ease;
+        border-radius: 2px;
+
+
+
+    }
+
+    .view-live-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem 0.5rem;
+        border-radius: 0.5rem;
+        color: #11151b;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        display: block;
+    }
+
+    .aboutp {
+        font-size: 1rem;
+        padding: 0;
+        max-width: 500px;
+        margin-left: 2rem;
+
+    }
+
+    .btn {
+        display: none;
+    }
+
+    h4 {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .tech {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+
+    }
+
+
 }

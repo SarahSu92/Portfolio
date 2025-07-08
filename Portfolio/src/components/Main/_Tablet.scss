@@ -20,14 +20,6 @@
         font-size: 2rem;
     }
 
-    .projects {
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        border-bottom: 1px solid;
-
-    }
-
     .image-projects {
         max-width: 90%;
         height: auto;
@@ -41,6 +33,10 @@
 
     .tech-skill .skills {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .view-live-button{
+        display: none;
     }
 
 }
