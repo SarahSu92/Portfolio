@@ -1,6 +1,7 @@
 import { Arrow } from '../Arrow/Aorrow';
 import './Main.scss';
 import './_Tablet.scss';
+import './_Desktop.scss';
 
 export const Main = () => {
   return (

@@ -73,6 +73,14 @@ h2 {
     color: #11151b;
 }
 
+    .resume-wrap {
+    display: none;
+}
+
+    .contact-wrap {
+    display: none;
+}
+
 @media screen and (min-width: 720px) {
     .nav {
         width: 90vw;
@@ -80,8 +88,16 @@ h2 {
     }
 
     .icon {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
+
+    .resume-wrap {
+    display: none;
+}
+
+    .contact-wrap {
+    display: none;
+}
 
     h1 {
         margin-left: 19rem;
@@ -108,9 +124,92 @@ h2 {
 }
 
 .profile {
-    height: 15rem;
+    height: 14rem;
     width: auto;
 }
 
+
+}
+
+@media screen and (min-width: 1024px) {
+    .resume-wrap {
+    background: linear-gradient(135deg,
+            #d5dec1 0%,
+            #c6d3ab 10%,
+            #e0e9cc 50%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    color: #11151b;
+    padding: 0.4rem 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.4s ease;
+    position: absolute;
+     margin-left: 900px;
+    top: 0;
+    margin-top: 10rem;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.contact-wrap {
+    background: linear-gradient(135deg,
+            #d5dec1 0%,
+            #c6d3ab 10%,
+            #e0e9cc 50%,
+
+        );
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    color: #11151b;
+    padding: 0.4rem 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.4s ease;
+    position: absolute;
+    margin-left: 900px;
+    top: 0;
+    margin-top: 15rem;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+ .text {   
+    max-width: 400px;    
+    margin-left: 22rem;
+}
+
+h1 {
+        margin-left: 23rem;
+        
+    }
+
+    h2 {
+        margin-left: 23rem;
+        
+    }
+
+    .image {    
+      
+      margin-left: 5rem;
+    }
 
 }

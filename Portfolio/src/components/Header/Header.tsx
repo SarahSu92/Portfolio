@@ -3,7 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export const Header = () => {
-  return (
+  return <> 
     <div className="top">
       <nav className="media-icons" aria-label="Social media links">
         <ul className='nav'>
@@ -52,6 +52,18 @@ export const Header = () => {
         frameworks such as Vue and React, with a focus on responsive design and
         accessibility.
       </p>
+
+      <a
+          href="/CV Sarah Sundberg.pdf"
+          className="resume-wrap"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+        <a href="#contact-section" className="contact-wrap">
+          Contact
+        </a>
     </div>
-  );
+  </>
 };
