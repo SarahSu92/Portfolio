@@ -11,20 +11,25 @@
         display: flex;
         align-items: flex-start;
         gap: 1rem;
+        justify-content: center;
+        align-items: center;
+
+
+
 
 
     }
 
     .projects-wrapper {
         max-width: 500px;
-        
+        align-self: flex-start;
+
     }
 
     .image-wrapper {
         overflow: hidden;
         position: relative;
         max-width: 30%;
-
 
 
         &:hover .image-projects {
@@ -38,7 +43,9 @@
 
     .image-projects {
 
+
         width: 100%;
+        max-width: 500px;
         /* Makes the image responsive */
         height: auto;
         /* Maintains aspect ratio */
@@ -71,7 +78,7 @@
         font-size: 1rem;
         padding: 1rem;
         max-width: 500px;
-        margin-left: 1rem;
+        align-self: flex-start;
 
     }
 
@@ -80,13 +87,15 @@
     }
 
     .tech-wrap {
-       margin-left: auto;
+        margin-left: auto;
+        align-self: flex-start;
+
     }
 
     .tech {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-top: 0;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
         justify-content: center;
         gap: 1rem;
         align-items: center;
@@ -96,7 +105,8 @@
     .headline {
         text-align: left;
         margin-top: 0;
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 0;
     }
 
     .skill-headline {
@@ -104,4 +114,11 @@
     }
 
 
+}
+
+@media screen and (min-width: 1200px) {
+    .tech {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
 }

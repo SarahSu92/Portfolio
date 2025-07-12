@@ -21,13 +21,20 @@
     }
 
     .image-projects {
-        max-width: 90%;
+        max-width: 80%;
         height: auto;
     }
 
+    .projects-wrapper {
+        width: 80%;
+        max-width: 650px;
+        /* or anything that fits your design */
+        margin: 0 auto;
+        /* horizontal centering */
+        padding: 1rem;
+    }
+
     .aboutp {
-        max-width: 600px;
-        margin-left: 3rem;
         font-size: 1rem;
     }
 
@@ -35,7 +42,7 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .view-live-button{
+    .view-live-button {
         display: none;
     }
 
