@@ -39,7 +39,7 @@ export const Main = () => {
             </a>
           </div>
           <div className="projects-wrapper">
-            <h4>Merlyn quiz</h4>
+            <h4 className='headline'>Merlyn quiz</h4>
             <p className="aboutp">
               This is a quiz game that I've work tohether with a group of five
               people. The quiz is a about flags and what country each flag
@@ -49,7 +49,7 @@ export const Main = () => {
               process with the car at the bottom of the page that moves forward
               for each answerd question. When the quiz is finished the result
               will show have many qustions you answerd correctly and time, also
-              an animation pops up with confetti! 🎉
+              an animation pops up with confetti! 🎉 To visit live page click on the image. 
             </p>
           </div>
           <div className="button">
@@ -80,14 +80,22 @@ export const Main = () => {
       <section>
         <article className="projects">
           <div className="image-wrapper">
-            <img
+            <img 
               className="image-projects"
               src="/Poseidonretreat.png"
               alt="Poseidons retreat, a hotell/restort webbsite."
-            ></img>
+            />
+            <a
+              href="https://medieinstitutet.github.io/fed24d-grafiska-verktyg-elddvargskejsarna/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-live-button"
+            >
+              View Live Page
+            </a>
           </div>
-
-          <h4>Poseidons Retreat</h4>
+          <div className="projects-wrapper">
+          <h4 className='headline'>Poseidons Retreat</h4>
           <p className="aboutp">
             This project was completed in two teams, the first team was tasked
             with designing a responsive and well-defined website of their
@@ -95,8 +103,9 @@ export const Main = () => {
             element styling throughout the site. The second team then
             implemented the design and built the project using Vue as the
             framework 🚀 The project is a hotell/resort website that offers
-            various rooms and booking alternatives.
+            various rooms and booking alternatives. To visit live page click on the image.
           </p>
+          </div>
           <div className="button">
             <a
               href="https://medieinstitutet.github.io/fed24d-grafiska-verktyg-elddvargskejsarna/"
@@ -106,7 +115,7 @@ export const Main = () => {
               <button className="btn">View Live Page</button>
             </a>
           </div>
-
+          <div className='tech-wrap'>
           <p className="tech-stack">Tech</p>
           <p className="tech">
             <span>Sass</span>
@@ -117,6 +126,7 @@ export const Main = () => {
             <span>Prettier</span>
             <span>Vue</span>
           </p>
+          </div>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -127,15 +137,24 @@ export const Main = () => {
               className="image-projects"
               src="/Atlantisframe.png"
               alt="Atlantis Frame, a travel webbsite."
-            ></img>
+            />
+            <a
+              href="https://sarahsu92.github.io/Atlantis_Frame/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-live-button"
+            >
+              View Live Page
+            </a>
           </div>
-
-          <h4>Atlantis Frame</h4>
+          <div className="projects-wrapper">
+          <h4 className='headline'>Atlantis Frame</h4>
           <p className="aboutp">
             This is a side project creating a travel webbpage, learning new
             skills and exploring new technics by adding video material to a
-            webbpage.
+            webbpage. To visit live page click on the image.
           </p>
+          </div>
           <div className="button">
             <a
               href="https://sarahsu92.github.io/Atlantis_Frame/"
@@ -145,7 +164,7 @@ export const Main = () => {
               <button className="btn">View Live Page</button>
             </a>
           </div>
-
+          <div className='tech-wrap'>
           <p className="tech-stack">Tech</p>
           <p className="tech">
             <span>Vite</span>
@@ -154,6 +173,7 @@ export const Main = () => {
             <span>Prettier</span>
             <span>Vue</span>
           </p>
+          </div>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -164,10 +184,10 @@ export const Main = () => {
               className="image-projects"
               src="/APIbooks.png"
               alt="The Story House, a webbsite about books."
-            ></img>
+            />
           </div>
-
-          <h4>The Story House</h4>
+          <div className="projects-wrapper">
+          <h4 className='headline'>The Story House</h4>
           <p className="aboutp">
             The Story House is a simple web application where users can browse a
             list of books, view details and reviews, and add their own reviews.
@@ -175,6 +195,8 @@ export const Main = () => {
             data is fetched from a custom-built API connected to a MongoDB
             database.
           </p>
+          </div>
+          <div className='tech-wrap'>
           <p className="tech-stack">Tech</p>
           <p className="tech">
             <span>Sass</span>
@@ -186,6 +208,7 @@ export const Main = () => {
             <span>Prettier</span>
             <span>MongoDB</span>
           </p>
+          </div>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -196,15 +219,24 @@ export const Main = () => {
               className="image-projects"
               src="/Todos.png"
               alt="Todo-List, a webbsite about your todos."
-            ></img>
+           />
+           <a
+              href="https://sarahsu92.github.io/TodoList/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-live-button"
+            >
+              View Live Page
+            </a>
           </div>
-
-          <h4>Todo-List</h4>
+          <div className="projects-wrapper">
+          <h4 className='headline'>Todo-List</h4>
           <p className="aboutp">
             This is project is about learning React and creating a simple todo
             list in wich you can add tasks, marked them as complete and remove
-            them.
+            them. To visit live page click on the image.
           </p>
+          </div>
           <div className="button">
             <a
               href="https://sarahsu92.github.io/TodoList/"
@@ -214,7 +246,7 @@ export const Main = () => {
               <button className="btn">View Live Page</button>
             </a>
           </div>
-
+          <div className='tech-wrap'>
           <p className="tech-stack">Tech</p>
           <p className="tech">
             <span>Sass</span>
@@ -227,6 +259,7 @@ export const Main = () => {
             <span>JavaScript</span>
             <span>React</span>
           </p>
+          </div>
         </article>
       </section>
       {/* -------------------------------------------------- */}
@@ -237,18 +270,27 @@ export const Main = () => {
               className="image-projects"
               src="/Gottfridsmunkar.png"
               alt="Gottfrids Munkar, a donat webbshop."
-            ></img>
+            />
+            <a
+              href="https://medieinstitutet.github.io/fed24d-js-intro-inl-1-webshop-SarahSu92"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-live-button"
+            >
+              View Live Page
+            </a>
           </div>
-
-          <h4>Gottfrids Munkar</h4>
+          <div className="projects-wrapper">
+          <h4 className='headline'>Gottfrids Munkar</h4>
           <p className="aboutp">
             This project is a onepage donut webbshop. This is my first webbshop
             creation, learning JavaScript so the page has not much CSS to
             celebrate about because I was focusing more on JavaScript and that
             was also the main focus for this project with the time given. The
             webb page is responsive to adapt all devices such as mobile, desktop
-            and desktop.
+            and desktop. To visit live page click on the image.
           </p>
+          </div>
           <div className="button">
             <a
               href="https://medieinstitutet.github.io/fed24d-js-intro-inl-1-webshop-SarahSu92"
@@ -258,7 +300,7 @@ export const Main = () => {
               <button className="btn">View Live Page</button>
             </a>
           </div>
-
+          <div className='tech-wrap'>
           <p className="tech-stack">Tech</p>
           <p className="tech">
             <span>Sass</span>
@@ -266,12 +308,13 @@ export const Main = () => {
             <span>CSS3</span>
             <span>JavaScript</span>
           </p>
+          </div>
         </article>
       </section>
 
       <section className="tech-skills">
         <article className="tech-skill">
-          <h4>Skills</h4>
+          <h4 className='skill-headline'>Skills</h4>
           <div className="tech-wrap">
             <ul className="skills">
               <li className="skill">HTML5</li>

@@ -73,11 +73,11 @@ h2 {
     color: #11151b;
 }
 
-    .resume-wrap {
+.resume-wrap {
     display: none;
 }
 
-    .contact-wrap {
+.contact-wrap {
     display: none;
 }
 
@@ -92,12 +92,12 @@ h2 {
     }
 
     .resume-wrap {
-    display: none;
-}
+        display: none;
+    }
 
     .contact-wrap {
-    display: none;
-}
+        display: none;
+    }
 
     h1 {
         margin-left: 19rem;
@@ -109,109 +109,138 @@ h2 {
         font-size: 1.8rem;
     }
 
-    .image {    
-      margin-top: 4rem;
-      margin-left: 2rem;
+    .image {
+        margin-top: 4rem;
+        margin-left: 2rem;
     }
 
     .text {
-    margin-top: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    max-width: 430px;
-    color: #11151b;
-    margin-left: 18rem;
-}
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        max-width: 430px;
+        color: #11151b;
+        margin-left: 18rem;
+    }
 
-.profile {
-    height: 14rem;
-    width: auto;
-}
+    .profile {
+        height: 14rem;
+        width: auto;
+    }
 
 
 }
 
 @media screen and (min-width: 1024px) {
     .resume-wrap {
-    background: linear-gradient(135deg,
-            #d5dec1 0%,
-            #c6d3ab 10%,
-            #e0e9cc 50%);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    border-radius: 2px;
-    color: #11151b;
-    padding: 0.4rem 0.9rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-radius: 0.5rem;
-    letter-spacing: 0.5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-style: italic;
-    transition: 0.4s ease;
-    position: absolute;
-     margin-left: 850px;
-    top: 0;
-    margin-top: 10rem;
+        background: linear-gradient(135deg,
+                #d5dec1 0%,
+                #c6d3ab 10%,
+                #e0e9cc 50%);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+        color: #11151b;
+        padding: 0.4rem 0.9rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-radius: 0.5rem;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-style: italic;
+        transition: 0.4s ease;
+        position: absolute;
+        margin-left: 850px;
+        top: 0;
+        margin-top: 10rem;
 
-    &:hover {
-        transform: scale(1.2);
+        &:hover {
+            transform: scale(1.2);
+        }
     }
-}
 
-.contact-wrap {
-    background: linear-gradient(135deg,
-            #d5dec1 0%,
-            #c6d3ab 10%,
-            #e0e9cc 50%,
+    .contact-wrap {
+        background: linear-gradient(135deg,
+                #d5dec1 0%,
+                #c6d3ab 10%,
+                #e0e9cc 50%,
 
-        );
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    border-radius: 2px;
-    color: #11151b;
-    padding: 0.4rem 0.9rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-radius: 0.5rem;
-    letter-spacing: 0.5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-style: italic;
-    transition: 0.4s ease;
-    position: absolute;
-    margin-left: 850px;
-    top: 0;
-    margin-top: 15rem;
+            );
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+        color: #11151b;
+        padding: 0.4rem 0.9rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-radius: 0.5rem;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-style: italic;
+        transition: 0.4s ease;
+        position: absolute;
+        margin-left: 850px;
+        top: 0;
+        margin-top: 15rem;
 
-    &:hover {
-        transform: scale(1.2);
+        &:hover {
+            transform: scale(1.2);
+        }
     }
-}
 
- .text {   
-    max-width: 400px;    
-    margin-left: 20rem;
-}
-
-h1 {
+    .text {
+        max-width: 420px;
         margin-left: 21rem;
+    }
+
+    h1 {
+        margin-left: 22rem;
         font-size: 1.5rem;
-        
+
     }
 
     h2 {
-        margin-left: 21rem;
+        margin-left: 22rem;
         font-size: 1.5;
-        
+
     }
 
-    .image {    
-      
-      margin-left: 4rem;
+    .image {
+
+        margin-left: 4rem;
     }
 
+}
+
+@media screen and (min-width: 1280px) {
+    .text {
+        max-width: 500px;
+        margin-left: 26rem;
+    }
+
+    h1 {
+        margin-left: 27rem;
+
+
+    }
+
+    h2 {
+        margin-left: 27rem;
+    }
+    
+    .image {
+
+        margin-left: 5rem;
+    }
+
+    .resume-wrap {
+        margin-left: 1000px;
+    }
+    .contact-wrap {
+        margin-left: 1000px;
+    }
 }

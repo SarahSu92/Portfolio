@@ -17,12 +17,13 @@
 
     .projects-wrapper {
         max-width: 500px;
+        
     }
 
     .image-wrapper {
         overflow: hidden;
         position: relative;
-        max-width: 100%;
+        max-width: 30%;
 
 
 
@@ -39,10 +40,6 @@
 
         width: 100%;
         /* Makes the image responsive */
-        max-width: 300px;
-        /* Prevents it from growing too big */
-        min-width: 200px;
-        /* Prevents it from shrinking too small */
         height: auto;
         /* Maintains aspect ratio */
         object-fit: cover;
@@ -72,9 +69,9 @@
 
     .aboutp {
         font-size: 1rem;
-        padding: 0;
+        padding: 1rem;
         max-width: 500px;
-        margin-left: 2rem;
+        margin-left: 1rem;
 
     }
 
@@ -82,20 +79,28 @@
         display: none;
     }
 
-    h4 {
-        text-align: left;
-        margin-top: 0;
-        margin-left: 2rem;
+    .tech-wrap {
+       margin-left: auto;
     }
 
     .tech {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-top: 0;
         justify-content: center;
         gap: 1rem;
         align-items: center;
 
+    }
+
+    .headline {
+        text-align: left;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .skill-headline {
+        text-align: center;
     }
 
 
