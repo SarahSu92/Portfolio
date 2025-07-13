@@ -40,7 +40,7 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="image">
-        <img className='profile' src="/Bild1.jpg" alt="Profile picture"></img>
+        <img className='profile' src="/IMG_E1737.jpg" alt="Profile picture"></img>
       </div>
       <h1>Hi I'm</h1>
       <h2>Sarah Sundberg</h2>

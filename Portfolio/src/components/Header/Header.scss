@@ -35,19 +35,20 @@
 .image {
     position: absolute;
     top: 0;
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     padding: 1rem;
 }
 
 .profile {
-    border-radius: 360px;
+    border-radius: 2px;
     height: 13rem;
     width: auto;
+    margin-left: 1.5rem;
 }
 
 h1 {
     color: #11151b;
-    margin-left: 15rem;
+    margin-left: 13rem;
     font-size: 1.2rem;
     margin-bottom: 0;
     margin-top: 2.5rem;
@@ -58,7 +59,7 @@ h1 {
 
 h2 {
     color: #11151b;
-    margin-left: 15rem;
+    margin-left: 13rem;
     font-size: 1.5rem;
     margin-top: 0.5rem;
     font-style: italic;
@@ -110,8 +111,8 @@ h2 {
     }
 
     .image {
-        margin-top: 4rem;
-        margin-left: 2rem;
+        margin-top: 5.7rem;
+        margin-left: 5rem;
     }
 
     .text {
@@ -210,8 +211,13 @@ h2 {
     }
 
     .image {
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
 
-        margin-left: 4rem;
+    .profile {
+        height: 16rem;
+        width: auto;
     }
 
 }
@@ -233,8 +239,8 @@ h2 {
     }
     
     .image {
-        margin-left: 5rem;
-        margin-top: 2rem;
+        margin-left: 13rem;
+        margin-top: 3rem;
     }
 
       .profile {
