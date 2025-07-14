@@ -1,7 +1,6 @@
 import './Header.scss';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import profile from '@/assets/image0.jpeg';
 
 export const Header = () => {
   return <> 
@@ -41,7 +40,7 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="image">
-        <img className='profile' src={profile} alt="Profile picture"></img>
+        <img className='profile' src={`${import.meta.env.BASE_URL}image0.jpeg`} alt="Profile picture"></img>
       </div>
       <h1>Hi I'm</h1>
       <h2>Sarah Sundberg</h2>
