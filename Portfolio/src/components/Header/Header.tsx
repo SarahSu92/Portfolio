@@ -40,7 +40,7 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="image">
-        <img className='profile' src="/image0.jpeg" alt="Profile picture"></img>
+        <img className='profile' src={`${import.meta.env.BASE_URL}image0.jpeg`} alt="Profile picture"></img>
       </div>
       <h1>Hi I'm</h1>
       <h2>Sarah Sundberg</h2>
