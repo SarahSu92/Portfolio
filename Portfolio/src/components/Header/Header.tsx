@@ -40,7 +40,7 @@ export const Header = () => {
         </ul>
       </nav>
       <div className="image">
-        <img className='profile' src="/image01.jpeg" alt="Profile picture"></img>
+        <img className='profile' src="/image0.jpeg" alt="Profile picture"></img>
       </div>
       <h1>Hi I'm</h1>
       <h2>Sarah Sundberg</h2>
@@ -54,7 +54,7 @@ export const Header = () => {
       </p>
 
       <a
-          href="/CV Sarah Sundbergpdf.pdf"
+          href="/CV Sarah Sundberg.pdf"
           className="resume-wrap"
           target="_blank"
           rel="noopener noreferrer"
