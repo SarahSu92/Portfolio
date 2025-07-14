@@ -26,7 +26,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Merlynquiz.png"
+              src={`${import.meta.env.BASE_URL}Merlynquiz.png`}
               alt="Merlyn quiz game, a quizgame."
             />
             <a
@@ -82,7 +82,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img 
               className="image-projects"
-              src="/Poseidonretreat.png"
+              src={`${import.meta.env.BASE_URL}Poseidonretreat.png`} 
               alt="Poseidons retreat, a hotell/restort webbsite."
             />
             <a
@@ -135,7 +135,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Atlantisframe.png"
+              src={`${import.meta.env.BASE_URL}Atlantisframe.png`}
               alt="Atlantis Frame, a travel webbsite."
             />
             <a
@@ -182,7 +182,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/APIbooks.png"
+              src={`${import.meta.env.BASE_URL}APIbooks.png`}
               alt="The Story House, a webbsite about books."
             />
           </div>
@@ -217,7 +217,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Todos.png"
+              src={`${import.meta.env.BASE_URL}Todos.png`}
               alt="Todo-List, a webbsite about your todos."
            />
            <a
@@ -268,7 +268,7 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src="/Gottfridsmunkar.png"
+              src={`${import.meta.env.BASE_URL}Gottfridsmunkar.png`}
               alt="Gottfrids Munkar, a donat webbshop."
             />
             <a
