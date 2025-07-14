@@ -51,13 +51,15 @@ export const Header = () => {
         <h2>Sarah Sundberg</h2>
 
         <p className="text">
-          I am a motivated Frontend student with a strong passion
-          for building innovative and accessible web applications. My academic
-          background has equipped me with a solid foundation in TypeScript,
-          HTML5, CSS, SQL, and UX/UI design, along with hands-on experience
-          using modern frameworks such as Vue and React. I have a particular
-          focus on responsive design and accessibility best
-          practices, aiming to create the best user experiences that are
+          I am a motivated Frontend student with a strong passion for building
+          innovative and accessible web applications.
+          <br />
+          <br /> My academic background has equipped me with a solid foundation
+          in TypeScript, HTML5, CSS, SQL, and UX/UI design, along with hands-on
+          experience using modern frameworks such as Vue and React.
+          <br />
+          <br />I have a particular focus on responsive design and accessibility
+          best practices, aiming to create the best user experiences that are
           both functional and inclusive.
         </p>
 
