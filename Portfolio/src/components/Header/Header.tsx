@@ -40,7 +40,6 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className='profile-section'>
         <div className="image">
           <img
             className="profile"
@@ -75,7 +74,6 @@ export const Header = () => {
         <a href="#contact-section" className="contact-wrap">
           Contact
         </a>
-      </div>
       </div>
     </>
   );
