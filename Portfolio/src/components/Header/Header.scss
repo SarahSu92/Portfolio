@@ -95,7 +95,7 @@ h2 {
     }
 
     .icon {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .resume-wrap {
@@ -212,34 +212,75 @@ h2 {
 
     h2 {
         margin-left: 22rem;
-        font-size: 1.5;
+        font-size: 1.5rem;
+
+    }
+
+    .image {
+        margin-left: 3rem;
 
     }
 
 }
 
-@media screen and (min-width: 1390px) {
+@media screen and (min-width: 1280px) {
     .text {
-        max-width: 500px;
-        margin-left: 29rem;
+       margin-left: 26rem; 
+       max-width: 500px;
     }
 
     h1 {
+        margin-left: 27rem;
+
+    }
+
+    h2 {
+        margin-left: 27rem;
+
+    }
+
+    .resume-wrap {
+        margin-left: 1040px;
+        margin-top: 13rem;
+    }
+
+     .contact-wrap {
+        margin-left: 1040px;
+        margin-top: 18rem;
+    }
+
+    .image {
+        margin-left: 6rem;
+        margin-top: 7rem;
+        width: 290px;
+        height: 290px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+    .text {
+        max-width: 500px;
         margin-left: 30rem;
+    }
+
+    h1 {
+        margin-left: 31rem;
 
 
     }
 
     h2 {
-        margin-left: 30rem;
+        margin-left: 31rem;
     }
 
     .resume-wrap {
-        margin-left: 1100px;
+        margin-left: 1180px;
     }
 
     .contact-wrap {
-        margin-left: 1100px;
+        margin-left: 1180px;
     }
 
     .image {
