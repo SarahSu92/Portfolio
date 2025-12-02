@@ -55,7 +55,7 @@ export const Header = () => {
           innovative and accessible web applications.
           <br />
           <br /> My academic background has equipped me with a solid foundation
-          in TypeScript, HTML5, CSS, SQL, and UX/UI design, along with hands-on
+          in TypeScript, HTML5, CSS, SQL, API and UX/UI design, along with hands-on
           experience using modern frameworks such as Vue and React.
           <br />
           <br />I have a particular focus on responsive design and accessibility
@@ -64,7 +64,7 @@ export const Header = () => {
         </p>
 
         <a
-          href={`${import.meta.env.BASE_URL}CV Sarah Sundberg.pdf`}
+          href={`${import.meta.env.BASE_URL}CV Sarah.Sundberg.pdf`}
           className="resume-wrap"
           target="_blank"
           rel="noopener noreferrer"
