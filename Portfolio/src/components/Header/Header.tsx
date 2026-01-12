@@ -64,7 +64,7 @@ export const Header = () => {
         </p>
 
         <a
-          href={`${import.meta.env.BASE_URL}CV Sarah.Sundberg.pdf`}
+          href={`${import.meta.env.BASE_URL}SarahSundberg.pdf`}
           className="resume-wrap"
           target="_blank"
           rel="noopener noreferrer"
