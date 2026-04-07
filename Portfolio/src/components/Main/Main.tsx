@@ -8,7 +8,7 @@ export const Main = () => {
     <>
       <div className="undernav">
         <a
-          href={`${import.meta.env.BASE_URL}SarahSundbergCV_2026.pdf`}
+          href={`${import.meta.env.BASE_URL}CVSundbergEng.pdf`}
           className="resume"
           target="_blank"
           rel="noopener noreferrer"
