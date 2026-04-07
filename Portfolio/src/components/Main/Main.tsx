@@ -137,11 +137,11 @@ export const Main = () => {
           <div className="image-wrapper">
             <img
               className="image-projects"
-              src={`${import.meta.env.BASE_URL}Atlantisframe.png`}
-              alt="Atlantis Frame, a travel webbsite."
+              src={`${import.meta.env.BASE_URL}AtlantisTravel.png`}
+              alt="Atlantis Travel, a travel webbsite."
             />
             <a
-              href="https://sarahsu92.github.io/Atlantis_Frame/"
+              href="https://sarahsu92.github.io/AtlantisTravel/"
               target="_blank"
               rel="noopener noreferrer"
               className="view-live-button"
@@ -152,14 +152,14 @@ export const Main = () => {
           <div className="projects-wrapper">
             <h4 className="headline">Atlantis Frame</h4>
             <p className="aboutp">
-              This is a side project creating a travel webbpage, learning new
-              skills and exploring new technics by adding video material to a
-              webbpage. To visit live page click on the image.
+              This is a travel guide website. Discover new places to travel to or jsut enjoy some facts about various destinations around the world. Use the search bar to filter destinations based on your activity you are intereted in, 
+              or just visit all destinations. On each destination you'll find a Interactive Attractions Map that displays all popular attractions at the destination on an interactive map. Users can click on markers to see the title and description of each attraction. 
+              The map is implemented using React Leaflet and uses OpenStreetMap for map data.
             </p>
           </div>
           <div className="button">
             <a
-              href="https://sarahsu92.github.io/Atlantis_Frame/"
+              href="https://sarahsu92.github.io/AtlantisTravel/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -170,10 +170,13 @@ export const Main = () => {
             <p className="tech-stack">Tech</p>
             <p className="tech">
               <span>Vite</span>
+              <span>TypeScript</span>
               <span>HTML5</span>
-              <span>CSS3</span>
+              <span>Sass</span>
               <span>Prettier</span>
-              <span>Vue</span>
+              <span>React</span>
+              <span>Vitest</span>
+              <span>Coverage</span>
             </p>
           </div>
         </article>

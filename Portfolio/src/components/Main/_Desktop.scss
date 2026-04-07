@@ -13,15 +13,10 @@
         gap: 1rem;
         justify-content: center;
         align-items: center;
-
-
-
-
-
     }
 
     .projects-wrapper {
-        max-width: 500px;
+        max-width: 600px;
         align-self: flex-start;
 
     }
@@ -42,20 +37,12 @@
     }
 
     .image-projects {
-
-
         width: 100%;
         max-width: 500px;
-        /* Makes the image responsive */
         height: auto;
-        /* Maintains aspect ratio */
         object-fit: cover;
-        /* Optional: crops image to fill space */
         transition: filter 0.5s ease;
         border-radius: 2px;
-
-
-
     }
 
     .view-live-button {
