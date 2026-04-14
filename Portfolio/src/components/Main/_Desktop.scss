@@ -38,7 +38,6 @@
 
     .image-projects {
         width: 100%;
-        max-width: 500px;
         height: auto;
         object-fit: cover;
         transition: filter 0.5s ease;
@@ -64,7 +63,7 @@
     .aboutp {
         font-size: 1rem;
         padding: 1rem;
-        max-width: 500px;
+        
         align-self: flex-start;
 
     }

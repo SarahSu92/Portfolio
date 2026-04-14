@@ -20,6 +20,7 @@ export const Main = () => {
         </a>
       </div>
       <h3>Projects</h3>
+      <p className='info'>ℹ️ To visit live page click on the image.</p>
 
       <section>
         <article className="projects">
@@ -39,18 +40,15 @@ export const Main = () => {
             </a>
           </div>
           <div className="projects-wrapper">
-            <h4 className="headline">Merlyn quiz</h4>
+            <h4 className="headline">Marlyn quiz</h4>
             <p className="aboutp">
-              This is a quiz game that I've work tohether with a group of five
-              people. The quiz is a about flags and what country each flag
+              This is a quiz game. The quiz is a about flags and what country each flag
               represent. It's ten questions and you have three anwers to choose
-              from, wich one you think it's right. You can follow how many
-              questions you have answerd and how far you have come in the
+              from. You can follow how many questions you have answerd and how far you have come in the
               process with the car at the bottom of the page that moves forward
               for each answerd question. When the quiz is finished the result
               will show have many qustions you answerd correctly and time, also
-              an animation pops up with confetti! 🎉 To visit live page click on
-              the image.
+              an animation pops up with confetti!🎉 
             </p>
           </div>
           <div className="button">
@@ -103,9 +101,8 @@ export const Main = () => {
               choice, with an emphasis on consistent colors, typography, and
               element styling throughout the site. The second team then
               implemented the design and built the project using Vue as the
-              framework 🚀 The project is a hotell/resort website that offers
-              various rooms and booking alternatives. To visit live page click
-              on the image.
+              framework 🚀. The project is a hotell/resort website that offers
+              various rooms and booking alternatives. 
             </p>
           </div>
           <div className="button">
@@ -150,9 +147,9 @@ export const Main = () => {
             </a>
           </div>
           <div className="projects-wrapper">
-            <h4 className="headline">Atlantis Frame</h4>
+            <h4 className="headline">Atlantis Travel</h4>
             <p className="aboutp">
-              This is a travel guide website. Discover new places to travel to or jsut enjoy some facts about various destinations around the world. Use the search bar to filter destinations based on your activity you are intereted in, 
+              This is a travel guide website. Use the search bar to filter destinations based on your activity you are intereted in, 
               or just visit all destinations. On each destination you'll find a Interactive Attractions Map that displays all popular attractions at the destination on an interactive map. Users can click on markers to see the title and description of each attraction. 
               The map is implemented using React Leaflet and uses OpenStreetMap for map data.
             </p>
@@ -239,7 +236,7 @@ export const Main = () => {
             <p className="aboutp">
               This is project is about learning React and creating a simple todo
               list in wich you can add tasks, marked them as complete and remove
-              them. To visit live page click on the image.
+              them. 
             </p>
           </div>
           <div className="button">
@@ -293,8 +290,7 @@ export const Main = () => {
               CSS to celebrate about because I was focusing more on JavaScript
               and that was also the main focus for this project with the time
               given. The webb page is responsive to adapt all devices such as
-              mobile, desktop and desktop. To visit live page click on the
-              image.
+              mobile, desktop and desktop. 
             </p>
           </div>
           <div className="button">
@@ -340,7 +336,7 @@ export const Main = () => {
             <p className="aboutp">
               This project is about fetching an api and creating a functionality
               to feed the animals from it. There are a few rules and the last fed time
-              is saved in LocalStorage. To visit live page click on the image.
+              is saved in LocalStorage. 
             </p>
           </div>
           <div className="button">
