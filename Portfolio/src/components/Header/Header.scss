@@ -80,14 +80,6 @@ h2 {
     color: #11151b;
 }
 
-.resume-wrap {
-    display: none;
-}
-
-.contact-wrap {
-    display: none;
-}
-
 @media screen and (min-width: 720px) {
     .nav {
         width: 90vw;
@@ -96,14 +88,6 @@ h2 {
 
     .icon {
         font-size: 1.5rem;
-    }
-
-    .resume-wrap {
-        display: none;
-    }
-
-    .contact-wrap {
-        display: none;
     }
 
     h1 {
@@ -130,164 +114,38 @@ h2 {
         margin-top: 9rem;
         width: 280px;
         height: 280px;
-
-
     }
-
-
-
 }
 
 @media screen and (min-width: 1024px) {
-    .resume-wrap {
-        background: linear-gradient(135deg,
-                #d5dec1 0%,
-                #c6d3ab 10%,
-                #e0e9cc 50%);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        display: flex;
-        align-items: center;
-        border-radius: 2px;
-        color: #11151b;
-        padding: 0.4rem 0.9rem;
-        font-size: 1.1rem;
-        font-weight: 500;
-        border-radius: 0.5rem;
-        letter-spacing: 0.5px;
-        cursor: pointer;
-        text-decoration: none;
-        font-style: italic;
-        transition: 0.4s ease;
-        position: absolute;
-        margin-left: 900px;
-        top: 0;
-        margin-top: 13rem;
-
-        &:hover {
-            transform: scale(1.2);
-        }
-    }
-
-    .contact-wrap {
-        background: linear-gradient(135deg,
-                #d5dec1 0%,
-                #c6d3ab 10%,
-                #e0e9cc 50%,
-
-            );
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        display: flex;
-        align-items: center;
-        border-radius: 2px;
-        color: #11151b;
-        padding: 0.4rem 0.9rem;
-        font-size: 1.1rem;
-        font-weight: 500;
-        border-radius: 0.5rem;
-        letter-spacing: 0.5px;
-        cursor: pointer;
-        text-decoration: none;
-        font-style: italic;
-        transition: 0.4s ease;
-        position: absolute;
-        margin-left: 900px;
-        top: 0;
-        margin-top: 18rem;
-
-        &:hover {
-            transform: scale(1.2);
-        }
-    }
-
     .text {
         max-width: 500px;
-        margin-left: 20rem;
-    }
-
-    h1 {
-        margin-left: 21rem;
-        font-size: 1.5rem;
-
-    }
-
-    h2 {
-        margin-left: 21rem;
-        font-size: 1.5rem;
-
-    }
-
-    .image {
-        margin-left: 3rem;        
-        margin-top: 9rem;
-        
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .text {
-       margin-left: 26rem; 
-       max-width: 500px;
-    }
-
-    h1 {
-        margin-left: 27rem;
-
-    }
-
-    h2 {
-        margin-left: 27rem;
-
-    }
-
-    .resume-wrap {
-        margin-left: 1040px;
-        margin-top: 13rem;
-    }
-
-     .contact-wrap {
-        margin-left: 1040px;
-        margin-top: 18rem;
-    }
-
-    .image {
-        margin-left: 6rem;
-        margin-top: 7rem;
-        width: 290px;
-        height: 290px;
-    }
-
-
-}
-
-@media screen and (min-width: 1400px) {
-    .text {
-        max-width: 500px;
-        margin-left: 30rem;
-    }
-
-    h1 {
-        margin-left: 31rem;
-    }
-
-    h2 {
-        margin-left: 31rem;
-    }
-
-    .resume-wrap {
-        margin-left: 1180px;
-    }
-
-    .contact-wrap {
-        margin-left: 1180px;
-    }
-
-    .image {
-        margin-left: 5rem;
-        margin-top: 9rem;
-        width: 400px;
-        height: 400px;
-
+        margin-left: 350px;
     }
 }
 
+
+// @media screen and (min-width: 1500px) {
+//     .text {
+//         max-width: 600px;
+//         margin-left: 700px;
+//     }
+
+//     h1 {
+//         margin-left: 700px;
+//     }
+
+//     h2 {
+//         margin-left: 700px;
+//     }
+
+  
+
+//     .image {
+//         margin-left: 150px;
+//         margin-top: 5rem;
+//         width: 350px;
+//         height: 350px;
+
+//     }
+// }

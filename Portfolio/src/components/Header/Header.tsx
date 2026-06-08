@@ -51,29 +51,16 @@ export const Header = () => {
         <h2>Sarah Sundberg</h2>
 
         <p className="text">
-          I am a motivated Frontend student with a strong passion for building
-          innovative and accessible web applications.
-          <br />
-          <br /> My academic background has equipped me with a solid foundation
-          in TypeScript, HTML5, CSS, SQL, API and UX/UI design, along with hands-on
-          experience using modern frameworks such as Vue and React.
-          <br />
-          <br />I have a particular focus on responsive design and accessibility
-          best practices, aiming to create the best user experiences that are
-          both functional and inclusive.
+          I am Frontend Developer with a strong interest in creating
+          modern, user-friendly, and accessible web applications.
+          Experienced in developing responsive solutions and
+          working with API integrations and modern development
+          tools. Motivated by solving problems and building digital
+          solutions that provide value to users.
+          Seeking an opportunity to contribute technical expertise,
+          dedication, and a strong desire to continue growing and
+        developing as a software developer.
         </p>
-
-        <a
-          href={`${import.meta.env.BASE_URL}CVSundbergEng.pdf`}
-          className="resume-wrap"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
-        <a href="#contact-section" className="contact-wrap">
-          Contact
-        </a>
       </div>
     </>
   );
